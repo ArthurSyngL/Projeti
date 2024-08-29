@@ -11,7 +11,6 @@ public class Main {
         EntityManager entityManager = entityManagerFactory.createEntityManager();
         entityManager.getTransaction().begin();
         Pagamento pg = new Pagamento();
-        pg.setId(11);
         pg.setValor(500);
         pg.setData(new Date());
         System.out.println(pg );
